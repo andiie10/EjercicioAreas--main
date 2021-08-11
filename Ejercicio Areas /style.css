@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    display: grid;
+    width: 100%;
+    height: 500px;
+    grid-template-areas: "A B D"
+                         "E C C"
+                         "F C C";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+A {
+    display: grid;
+    grid-area: A;
+    background-color: rgb(34, 187, 116);
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 72px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+B {
+    display: grid;
+    grid-area: B;
+    background-color: orange;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 72px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+C {
+    display: grid;
+    grid-area: C;
+    background-color: rgb(136, 206, 57);
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 72px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+D {
+    display: grid;
+    grid-area: D;
+    background-color: rgb(144, 32, 179);
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 72px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+E {
+    display: grid;
+    grid-area: E;
+    background-color: rgb(194, 32, 145);
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 72px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+F {
+    display: grid;
+    grid-area: F;
+    background-color: rgb(80, 147, 235);
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 72px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
